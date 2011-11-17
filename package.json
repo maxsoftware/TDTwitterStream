@@ -1,17 +1,17 @@
 { 
-  "name": "TDTwitterSitestream", 
+  "name": "TDTwitterStream", 
   "version": "0.1.0", 
-  "description": "Asynchronous Twitter REST/stream/search client API for node.js.", 
+  "description": "Asynchronous Twitter Streaming client API for node.js.", 
   "keywords": ["twitter","streaming","oauth","sitestreams"], 
-  "homepage": "https://github.com/maxsoftware/TDTwitterSitestream", 
+  "homepage": "https://github.com/maxsoftware/TDTwitterStream", 
   "author": "Michael Heap", 
   "licenses": { 
     "type": "MIT", 
-    "url": "https://github.com/maxsoftware/TDTwitterSitestream/raw/master/LICENSE"
+    "url": "https://github.com/maxsoftware/TDTwitterStream/raw/master/LICENSE"
   },
   "repository": { 
     "type": "git", 
-    "url": "https://github.com/maxsoftware/TDTwitterSitestream"
+    "url": "https://github.com/maxsoftware/TDTwitterStream"
   }, 
   "dependencies": { 
     "ntwitter": ">=0.2.8"
