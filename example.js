@@ -26,9 +26,24 @@ var tds = new TDTwitterStream();
 
 tds
 
-.on("error", function(d){ 
+.on("error", function(d, stream){ 
 	// Email yourself with the error etc
 	console.log(d); 
+	stream.destroy();
+})
+
+.on("stream_end", function(e, stream){ 
+	// Email yourself with the error etc
+	console.log(e);
+	stream.destroy();
+})
+
+.on("stream_destroy", function(e){ 
+	// Email yourself with the error etc
+	console.log("Stream Disconnected");
+
+	// Kill the script
+	process.exit(1);
 })
 
 .on("control", function(url){ 
