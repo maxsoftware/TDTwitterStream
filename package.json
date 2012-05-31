@@ -1,6 +1,6 @@
 { 
   "name": "TDTwitterStream", 
-  "version": "0.1.7", 
+  "version": "0.1.8", 
   "description": "Asynchronous Twitter Streaming client API for node.js.", 
   "keywords": ["twitter","streaming","oauth","sitestreams"], 
   "homepage": "https://github.com/maxsoftware/TDTwitterStream", 
