@@ -1,7 +1,7 @@
 { 
   "name": "TDTwitterStream", 
   "version": "0.2.0", 
-  "description": "Asynchronous Twitter Streaming client API for node.js.", 
+  "description": "Event emitter for Twitter Sitestreams", 
   "keywords": ["twitter","streaming","oauth","sitestreams"], 
   "homepage": "https://github.com/maxsoftware/TDTwitterStream", 
   "author": "Michael Heap", 
@@ -18,8 +18,8 @@
 	"url": "https://github.com/maxsoftware/TDTwitterStream/issues"
   },
   "dependencies": { 
-    "ntwitter": ">=0.3.0"
+    "ntwitter": ">=0.4.0"
   }, 
-  "engines": {"node":">=0.4.0 < 0.7.0"}, 
+  "engines": {"node":">=0.8.0"}, 
   "main": "./lib/parser"
 }
